@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/gradientPurple">
+
+    <ImageView
+        android:id="@+id/ocrImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/scanit"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/actionContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ocrImageView"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/selectImageBtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@drawable/loginbuttonbackground"
+            android:text="Select Image" />
+
+        <Button
+
+            android:id="@+id/processImageBtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@drawable/loginbuttonbackground"
+            android:text="Recognize Text" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/ocrResultEt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionContainer"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Detected text will appear here."
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/yourAllergic"
+        android:layout_width="396dp"
+        android:layout_height="223dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:textColor="#F317E800"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

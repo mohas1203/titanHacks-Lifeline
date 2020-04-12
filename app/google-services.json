@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "110119889979",
+    "firebase_url": "https://allergic-77229.firebaseio.com",
+    "project_id": "allergic-77229",
+    "storage_bucket": "allergic-77229.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110119889979:android:2573b37eb1b88927ee801e",
+        "android_client_info": {
+          "package_name": "com.example.titanhacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110119889979-8obf1j9ut9np8v0earfcrtgqivvlrdeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-9gMrbzhhTY5KplIfKghB0ElpX8fLQmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110119889979-8obf1j9ut9np8v0earfcrtgqivvlrdeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
